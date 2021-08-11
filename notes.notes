@@ -1,0 +1,21 @@
+Error Template:
+    {
+        error: "Error Message",
+        type: "authorization, bad request",
+        code: {code}
+        statusCode: 400(etc..)
+    }
+    //TODO: Complete!!
+Error Code:
+     type                   | HTTP + Message 
+1500 authorization          | 500  + "Internal Server Error" 
+
+
+API Document:
+    Routes: 
+    /api
+    - /user
+    -- GET /:uid 
+        200: return with an Item
+        404: Item not found
+        500: Internal Server Error

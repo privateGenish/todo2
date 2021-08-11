@@ -1,0 +1,21 @@
+Routes:
+    User:
+        ✔ Read public @done(21-08-03 18:58)
+        ✔ Read private @done(21-08-03 18:58)
+        ✔ Create @started(21-08-04 11:45) @done(21-08-09 02:15) @lasted(4d14h30m20s)
+        ☐ Delete
+        ☐ Update Info
+        ☐ create list
+    Lists:
+        ☐ Read public
+        ☐ Read private
+        ☐ Create
+        ☐ Delete
+        ☐ Update Name
+        ☐ Update policies
+        ☐ Update management
+        ☐ Update Tasks.
+MiddleWare:
+    ✔ readUser @done(21-08-03 18:58)
+    ✔ registerUser @started(21-08-04 11:45) @done(21-08-09 02:15) @lasted(4d14h30m18s)
+    ☐ writeUser @started(21-08-09 13:04)
